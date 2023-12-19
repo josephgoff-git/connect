@@ -1,0 +1,10 @@
+@import "./style.scss";
+
+.events {
+  @include themify($themes) {
+    #body{
+        
+        background-color: themed("bgSoft");
+    }
+  }
+}
